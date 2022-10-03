@@ -158,6 +158,7 @@ Promise.all([algo1,algo2,algo3,algo4,algo5,algo6,algo7,algo8,])
  document.querySelector("#brusselsSprouts").innerHTML += `<li>Brussels sprouts are ready!</li>`;
  document.querySelector("#brusselsSproutsImg").removeAttribute("hidden");
 })
+.catch((err)=> console.log("catch()", err));
 
 
 // .then( (step1) => {
